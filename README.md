@@ -9,7 +9,7 @@ A Streamlit-based chatbot application that answers questions about AFC Ajax Men'
 Ajax Tactiek Bot combines the power of:
 - YouTube transcript processing for building a knowledge base
 - Vector search (FAISS) for retrieving relevant tactical information
-- OpenAI's GPT-4 for generating detailed, contextual responses
+- OpenAI's GPT-4o-mini for generating detailed, contextual responses
 - Streamlit for creating an intuitive user interface
 
 The application processes Dutch football videos about Ajax, extracts tactical insights, and allows users to ask questions about Ajax's playing style, formations, and strategies.
