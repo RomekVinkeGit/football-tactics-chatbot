@@ -1,0 +1,23 @@
+Please generate a .gitignore file for this project. Follow these specifications:
+
+It is a Python-based project.
+
+Use best practices for ignoring files and directories commonly created during Python development, such as:
+
+Bytecode files (__pycache__/, *.pyc, *.pyo)
+
+Virtual environment directories (e.g., venv/, .env/)
+
+Dependency and package manager files (Pipfile.lock, poetry.lock, etc.)
+
+Environment/config files (e.g., .env, .DS_Store)
+
+Output logs and cache (*.log, .pytest_cache/, .mypy_cache/)
+
+IDE/editor files (.vscode/, .idea/)
+
+If the project includes Jupyter notebooks, ignore notebook checkpoints (.ipynb_checkpoints/).
+
+The file should be clean, well-organized, and include comments for each section.
+
+Output the complete .gitignore file content.
