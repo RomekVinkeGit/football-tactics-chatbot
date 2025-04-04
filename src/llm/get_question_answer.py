@@ -40,7 +40,7 @@ class FootballQA:
         load_dotenv()
         self.faiss_db = faiss_db
         self.llm = ChatOpenAI(
-            model="gpt-4",
+            model="gpt-4o-mini",
             temperature=0.7,
             max_tokens=1000
         )
@@ -87,7 +87,7 @@ class FootballQA:
         ])
         return formatted_context
 
-    def get_answer(self, question: str, k: int = 4) -> str:
+    def get_answer(self, question: str, k: int = 5) -> str:
         """
         Generate an answer to a football tactics question using the FAISS database.
         
@@ -162,4 +162,4 @@ def get_football_answer(faiss_db: FAISS, question: str, k: int = 4) -> str:
         str: Formatted answer combining context and LLM response
     """
     qa_system = FootballQA(faiss_db)
-    return qa_system.get_answer(question, k) 
+    return qa_system.get_answer(question, 10) 

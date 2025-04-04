@@ -288,7 +288,7 @@ def display_footer() -> None:
     Shows copyright information and the year in a centered footer.
     """
     st.markdown(
-        '<div class="footer"><p>Ontwikkeld voor Ajax fans • 2023</p></div>',
+        '<div class="footer"><p>Ontwikkeld voor Ajax fans • 2025</p></div>',
         unsafe_allow_html=True,
     )
 
