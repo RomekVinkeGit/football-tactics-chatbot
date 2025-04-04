@@ -1,0 +1,24 @@
+Prompt:
+
+"Write a Streamlit-based Python interface that allows users to interact with an AI assistant for answering questions about Ajax football tactics. 
+The backend logic for querying the FAISS database, generating prompts, and calling the OpenAI API is already implemented in a function 
+called get_football_answer.
+
+Interface Requirements:
+Modern and minimalistic design
+
+Color theme: Red and white (other colors are allowed for contrast)
+
+Title: 'Ajax tactiek bot'
+
+Instructional text: 'Wat wil je weten over de tactiek van Ajax?'
+
+Textbox: Where users can input their question, should be placed in the centre of the page
+
+Response display: Show the AI’s response below the textbox after submission
+
+Use Streamlit’s components for a clean UI. Ensure the interface is responsive and visually appealing.
+
+Follow best practices for modularity, readability, and efficiency. Use .env for managing API keys.
+
+Keep the code as simple as possible"

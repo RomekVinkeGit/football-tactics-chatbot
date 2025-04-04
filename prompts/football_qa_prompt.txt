@@ -1,0 +1,33 @@
+Prompt:
+
+"Write a Python module that generates a prompt for an OpenAI API call based on a user’s question and contextual knowledge retrieved from a FAISS vector database. The FAISS database contains information about football tactics extracted from Dutch YouTube videos.
+
+The module should follow these steps:
+
+Retrieve relevant context – Query the FAISS vector database using similarity search with a given user question. Retrieve the top k most relevant text chunks.
+
+Generate a prompt – Combine:
+
+The user’s question
+
+The retrieved context
+
+A system instruction to ensure accurate and context-based responses
+
+Call the OpenAI API – Use gpt-4o-mini to generate a response based on the constructed prompt.
+
+Format the response – Ensure the output is detailed, structured, and removes unnecessary line breaks.
+
+The module should be implemented as a function that accepts:
+
+A FAISS database instance
+
+A user query
+
+An optional parameter k for the number of retrieved context chunks
+
+Use langchain for the prompt template
+
+Follow best practices for modularity, readability, and efficiency. Use .env for managing API keys.
+
+Keep the code as simple as possible"

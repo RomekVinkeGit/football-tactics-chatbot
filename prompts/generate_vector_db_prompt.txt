@@ -1,0 +1,23 @@
+Prompt:
+
+"Write a Python module that accepts a list of URLs to Dutch YouTube videos. The module should use langchain_community.document_loaders.YoutubeLoader 
+to retrieve transcriptions of all videos, ensuring the language is set to Dutch (nl). It should then use 
+langchain.text_splitter.RecursiveCharacterTextSplitter to split the transcriptions into chunks of 1000 characters with 100 characters of overlap.
+
+Next, the module should store the split text into a FAISS vector database using langchain_community.vectorstores.FAISS with OpenAIEmbeddings 
+for embedding generation. The created FAISS database should then be stored locally.
+
+Ensure the following:
+
+The module is structured as a function that takes a list of YouTube URLs as input.
+
+The function should process multiple videos, merging all transcriptions before splitting into chunks.
+
+The FAISS vector database should be stored locally in a user-specified directory.
+
+Use .env for managing API keys where necessary.
+
+The module should follow best practices for modularity and efficiency.
+
+Keep the code as simple as possible"
+

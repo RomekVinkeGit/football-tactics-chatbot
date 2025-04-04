@@ -1,0 +1,19 @@
+Please write unit tests for the code in the src/ directory and its subdirectories. Follow these specifications:
+
+Use unittest (or specify pytest if preferred).
+
+Write tests that cover normal cases, edge cases, and error handling.
+
+Ensure that each function and method is tested, especially public ones.
+
+Use mocking where needed (e.g., for external API calls, file I/O, or database interactions).
+
+Organize tests in a tests/ directory, mirroring the structure of the src/ directory.
+
+Follow clear and descriptive naming conventions for test functions.
+
+Add docstrings or comments that explain what each test is validating.
+
+Make sure the tests can be run with a command like python -m unittest discover (or pytest if you're using that).
+
+Output the full test files, including any necessary imports and setup.
