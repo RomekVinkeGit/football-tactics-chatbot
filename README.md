@@ -115,3 +115,17 @@ streamlit run app.py
 - "Wat is de rol van de nummer 10 in het Ajax systeem?"
 - "Hoe past Ajax pressing toe?"
 
+## Development Process
+
+This project was developed using AI-assisted coding tools:
+
+- **Cursor**: An AI-powered IDE that helped with code generation, refactoring, and documentation
+- **Lovable**: An AI tool that assisted with development workflow and code improvements
+
+The development process combined:
+1. AI-generated code based on prompts (available in the `prompts/` directory)
+2. Manual refinements and customizations
+3. Iterative improvements through AI-human collaboration
+
+This approach allowed for rapid development while maintaining code quality and implementing best practices. 
+
